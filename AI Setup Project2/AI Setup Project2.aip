@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.3" version="20.3" Modules="simple" RootPath="." Language="en" Id="{58400E49-41BF-444E-B8FF-FD85BD1C4491}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2023" ValueLocId="-"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 20.3 build f51955ff" ValueLocId="-"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Core.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Identity.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HandyControl.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.deps.json" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.dll.config" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.exe" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.runtimeconfig.json" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-arm\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\unix\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll_2" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Logging.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Assessment.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Dmf.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Collector.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Server.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Smo.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SmoExtended.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SqlEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.WmiEnum.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Calculate.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Compression.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Data.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Edit.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Gantt.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Grid.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.GridCommon.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Licensing.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Linq.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.OfficeChart.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PMML.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Pdf.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PdfViewer.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PivotAnalysis.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Presentation.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.ProjIO.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.PropertyGrid.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfAccordion.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBarcode.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfCellGrid.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfChart.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfDiagram.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGauge.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGrid.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGridCommon.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGridConverter.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfHeatMap.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfHubTile.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfImageEditor.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfInput.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfKanban.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfMaps.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfProgressBar.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSchedule.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfScheduler.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfShared.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSkinManager.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSmithChart.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeMap.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeView.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Shared.WPF.Classic.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Shared.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Blend.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Lime.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Metro.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office365.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Tools.WPF.Classic.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.Tools.WPF.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Syncfusion.XlsIO.Base.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.OleDb.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.OleDb.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\unix\lib\netcoreapp2.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll_2" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win\lib\netcoreapp2.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Management.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Management.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win\lib\netcoreapp2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Memory.Data.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Runtime.Caching.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Runtime.Caching.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_sni.dll" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_sni.dll_1" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_sni.dll_2" Value="..\MacroRecognotionWPF\bin\Release\net7.0-windows\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll" Value="Azure.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll" Value="Azure.Identity.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HandyControl.dll" Value="HandyControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.deps.json" Value="MacroRecognotionWPF.deps.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll.config" Value="MacroRecognotionWPF.dll.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll_1" Value="MacroRecognotionWPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.exe" Value="MacroRecognotionWPF.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.runtimeconfig.json" Value="MacroRecognotionWPF.runtimeconfig.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Value="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll" Value="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1" Value="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2" Value="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3" Value="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll" Value="Microsoft.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_1" Value="Microsoft.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_2" Value="Microsoft.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll" Value="Microsoft.Data.Tools.Sql.BatchParser.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Value="Microsoft.Identity.Client.Extensions.Msal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll" Value="Microsoft.Identity.Client.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Value="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Value="Microsoft.IdentityModel.JsonWebTokens.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll" Value="Microsoft.IdentityModel.Logging.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Value="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Value="Microsoft.IdentityModel.Protocols.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Value="Microsoft.IdentityModel.Tokens.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll" Value="Microsoft.SqlServer.Assessment.Types.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.dll" Value="Microsoft.SqlServer.Assessment.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll" Value="Microsoft.SqlServer.ConnectionInfo.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll" Value="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.dll" Value="Microsoft.SqlServer.Dmf.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll" Value="Microsoft.SqlServer.Management.Assessment.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Collector.dll" Value="Microsoft.SqlServer.Management.Collector.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll" Value="Microsoft.SqlServer.Management.CollectorEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll" Value="Microsoft.SqlServer.Management.HadrData.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll" Value="Microsoft.SqlServer.Management.HadrModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll" Value="Microsoft.SqlServer.Management.RegisteredServers.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll" Value="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll" Value="Microsoft.SqlServer.Management.SqlScriptPublish.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll" Value="Microsoft.SqlServer.Management.XEvent.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll" Value="Microsoft.SqlServer.Management.XEventDbScoped.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Value="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll" Value="Microsoft.SqlServer.Management.XEventEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll" Value="Microsoft.SqlServer.PolicyEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Server.dll" Value="Microsoft.SqlServer.Server.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll" Value="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll" Value="Microsoft.SqlServer.Smo.Notebook.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.dll" Value="Microsoft.SqlServer.Smo.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SmoExtended.dll" Value="Microsoft.SqlServer.SmoExtended.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlEnum.dll" Value="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll" Value="Microsoft.SqlServer.SqlWmiManagement.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.WmiEnum.dll" Value="Microsoft.SqlServer.WmiEnum.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Calculate.Base.dll" Value="Syncfusion.Calculate.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Compression.Base.dll" Value="Syncfusion.Compression.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Data.WPF.dll" Value="Syncfusion.Data.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll" Value="Syncfusion.DocToPDFConverter.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Edit.WPF.dll" Value="Syncfusion.Edit.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll" Value="Syncfusion.ExcelChartToImageConverter.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll" Value="Syncfusion.ExcelToPdfConverter.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Gantt.WPF.dll" Value="Syncfusion.Gantt.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Grid.WPF.dll" Value="Syncfusion.Grid.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.GridCommon.WPF.dll" Value="Syncfusion.GridCommon.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Licensing.dll" Value="Syncfusion.Licensing.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Linq.Base.dll" Value="Syncfusion.Linq.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChart.Base.dll" Value="Syncfusion.OfficeChart.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll" Value="Syncfusion.OfficeChartToImageConverter.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PMML.Base.dll" Value="Syncfusion.PMML.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Pdf.Base.dll" Value="Syncfusion.Pdf.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PdfViewer.WPF.dll" Value="Syncfusion.PdfViewer.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.Base.dll" Value="Syncfusion.PivotAnalysis.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll" Value="Syncfusion.PivotAnalysis.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Presentation.Base.dll" Value="Syncfusion.Presentation.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll" Value="Syncfusion.PresentationToPdfConverter.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ProjIO.Base.dll" Value="Syncfusion.ProjIO.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PropertyGrid.WPF.dll" Value="Syncfusion.PropertyGrid.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfAccordion.WPF.dll" Value="Syncfusion.SfAccordion.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBarcode.WPF.dll" Value="Syncfusion.SfBarcode.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll" Value="Syncfusion.SfBulletGraph.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll" Value="Syncfusion.SfBusyIndicator.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfCellGrid.WPF.dll" Value="Syncfusion.SfCellGrid.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfChart.WPF.dll" Value="Syncfusion.SfChart.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagram.WPF.dll" Value="Syncfusion.SfDiagram.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll" Value="Syncfusion.SfDiagramRibbon.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGauge.WPF.dll" Value="Syncfusion.SfGauge.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGrid.WPF.dll" Value="Syncfusion.SfGrid.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridCommon.WPF.dll" Value="Syncfusion.SfGridCommon.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridConverter.WPF.dll" Value="Syncfusion.SfGridConverter.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHeatMap.WPF.dll" Value="Syncfusion.SfHeatMap.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHubTile.WPF.dll" Value="Syncfusion.SfHubTile.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfImageEditor.WPF.dll" Value="Syncfusion.SfImageEditor.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfInput.WPF.dll" Value="Syncfusion.SfInput.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfKanban.WPF.dll" Value="Syncfusion.SfKanban.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfMaps.WPF.dll" Value="Syncfusion.SfMaps.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll" Value="Syncfusion.SfNavigationDrawer.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfProgressBar.WPF.dll" Value="Syncfusion.SfProgressBar.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll" Value="Syncfusion.SfRadialMenu.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll" Value="Syncfusion.SfRichTextBoxAdv.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll" Value="Syncfusion.SfRichTextRibbon.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSchedule.WPF.dll" Value="Syncfusion.SfSchedule.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfScheduler.WPF.dll" Value="Syncfusion.SfScheduler.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfShared.WPF.dll" Value="Syncfusion.SfShared.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSkinManager.WPF.dll" Value="Syncfusion.SfSkinManager.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSmithChart.WPF.dll" Value="Syncfusion.SfSmithChart.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll" Value="Syncfusion.SfSpellChecker.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll" Value="Syncfusion.SfSpreadsheet.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll" Value="Syncfusion.SfSpreadsheetHelper.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll" Value="Syncfusion.SfSunburstChart.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll" Value="Syncfusion.SfTextInputLayout.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeMap.WPF.dll" Value="Syncfusion.SfTreeMap.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll" Value="Syncfusion.SfTreeNavigator.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeView.WPF.dll" Value="Syncfusion.SfTreeView.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.Classic.dll" Value="Syncfusion.Shared.WPF.Classic.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.dll" Value="Syncfusion.Shared.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Blend.WPF.dll" Value="Syncfusion.Themes.Blend.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll" Value="Syncfusion.Themes.FluentDark.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll" Value="Syncfusion.Themes.FluentLight.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Lime.WPF.dll" Value="Syncfusion.Themes.Lime.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll" Value="Syncfusion.Themes.MaterialDark.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll" Value="Syncfusion.Themes.MaterialDarkBlue.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll" Value="Syncfusion.Themes.MaterialLight.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll" Value="Syncfusion.Themes.MaterialLightBlue.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Metro.WPF.dll" Value="Syncfusion.Themes.Metro.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll" Value="Syncfusion.Themes.Office2010Black.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll" Value="Syncfusion.Themes.Office2010Blue.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll" Value="Syncfusion.Themes.Office2010Silver.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll" Value="Syncfusion.Themes.Office2013DarkGray.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll" Value="Syncfusion.Themes.Office2013LightGray.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll" Value="Syncfusion.Themes.Office2013White.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll" Value="Syncfusion.Themes.Office2016Colorful.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll" Value="Syncfusion.Themes.Office2016DarkGray.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll" Value="Syncfusion.Themes.Office2016White.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll" Value="Syncfusion.Themes.Office2019Black.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll" Value="Syncfusion.Themes.Office2019Colorful.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll" Value="Syncfusion.Themes.Office2019DarkGray.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll" Value="Syncfusion.Themes.Office2019HighContrast.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll" Value="Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll" Value="Syncfusion.Themes.Office2019White.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office365.WPF.dll" Value="Syncfusion.Themes.Office365.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll" Value="Syncfusion.Themes.Saffron.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll" Value="Syncfusion.Themes.SystemTheme.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll" Value="Syncfusion.Themes.VisualStudio2013.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll" Value="Syncfusion.Themes.VisualStudio2015.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.Classic.dll" Value="Syncfusion.Tools.WPF.Classic.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.dll" Value="Syncfusion.Tools.WPF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.XlsIO.Base.dll" Value="Syncfusion.XlsIO.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll" Value="System.Data.OleDb.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll_1" Value="System.Data.OleDb.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll" Value="System.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_1" Value="System.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_2" Value="System.Data.SqlClient.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Value="System.IdentityModel.Tokens.Jwt.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll" Value="System.Management.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll_1" Value="System.Management.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Memory.Data.dll" Value="System.Memory.Data.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll" Value="System.Runtime.Caching.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll_1" Value="System.Runtime.Caching.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_sni.dll" Value="sni.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_sni.dll_1" Value="sni.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_sni.dll_2" Value="sni.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="C.I.T"/>
+    <ROW Property="ProductCode" Value="1033:{D7F72982-E80A-4CF8-9062-52379DD5A16D} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Truck REcognition"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{0169089C-1376-4CBD-867A-8020C10965C0}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="MacroRecognotionWPF_Dir" Directory_Parent="APPDIR" DefaultDir="MACROR~1|MacroRecognotionWPF"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="lib_1_Dir" Directory_Parent="win_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_Dir" Directory_Parent="unix_Dir" DefaultDir="lib"/>
+    <ROW Directory="native_1_Dir" Directory_Parent="winx64_Dir" DefaultDir="native"/>
+    <ROW Directory="native_2_Dir" Directory_Parent="winx86_Dir" DefaultDir="native"/>
+    <ROW Directory="native_3_Dir" Directory_Parent="winarm_Dir" DefaultDir="native"/>
+    <ROW Directory="native_Dir" Directory_Parent="winarm64_Dir" DefaultDir="native"/>
+    <ROW Directory="netcoreapp2.0_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETCOR~1.0|netcoreapp2.0"/>
+    <ROW Directory="netcoreapp2.1_1_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETCOR~1.1|netcoreapp2.1"/>
+    <ROW Directory="netcoreapp2.1_Dir" Directory_Parent="lib_Dir" DefaultDir="NETCOR~1.1|netcoreapp2.1"/>
+    <ROW Directory="netcoreapp3.1_1_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETCOR~2.1|netcoreapp3.1"/>
+    <ROW Directory="netcoreapp3.1_Dir" Directory_Parent="lib_Dir" DefaultDir="NETCOR~2.1|netcoreapp3.1"/>
+    <ROW Directory="netstandard2.0_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="runtimes_Dir" Directory_Parent="MacroRecognotionWPF_Dir" DefaultDir="runtimes"/>
+    <ROW Directory="unix_Dir" Directory_Parent="runtimes_Dir" DefaultDir="unix"/>
+    <ROW Directory="win_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win"/>
+    <ROW Directory="winarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="WIN-AR~1|win-arm64"/>
+    <ROW Directory="winarm_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-arm"/>
+    <ROW Directory="winx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x64"/>
+    <ROW Directory="winx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x86"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{56DD8511-2F1F-4757-851A-8106B1E1E515}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="MacroRecognotionWPF_PrimaryOutput" ComponentId="{ED509C97-C2AD-4192-81BC-6DB1096DEDBF}" Directory_="MacroRecognotionWPF_Dir" Attributes="0" KeyPath="MacroRecognotionWPF.deps.json"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp2.1" ComponentId="{1120D90F-C9BC-441A-93A4-0DD212BF1996}" Directory_="netcoreapp2.1_Dir" Attributes="0" KeyPath="System.Data.SqlClient.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp3.1" ComponentId="{7AD62B1C-8C21-4B88-A977-8DA8CF940347}" Directory_="netcoreapp3.1_Dir" Attributes="0" KeyPath="Microsoft.Data.SqlClient.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.0" ComponentId="{124CB5DE-D1B4-4174-AD83-7D42E4B29A7C}" Directory_="netcoreapp2.0_Dir" Attributes="0" KeyPath="System.Management.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.1" ComponentId="{6C9A025E-6F89-4E89-ADE6-76B99CBEA8E8}" Directory_="netcoreapp2.1_1_Dir" Attributes="0" KeyPath="System.Data.SqlClient.dll_2"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{E41AC3CF-D505-4049-B175-EE043C40FC18}" Directory_="netcoreapp3.1_1_Dir" Attributes="0" KeyPath="Microsoft.Data.SqlClient.dll_2"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{8FBCB0C8-AD96-44AB-BA9F-484CDBC8A3FA}" Directory_="netstandard2.0_Dir" Attributes="0" KeyPath="System.Runtime.Caching.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_winarm64_native" ComponentId="{45256C6C-D7FD-4D90-AFC0-B57BB0A59EA8}" Directory_="native_Dir" Attributes="256" KeyPath="Microsoft.Data.SqlClient.SNI.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_winarm_native" ComponentId="{5C36FF27-DFC7-418B-89B7-379C870E7CD7}" Directory_="native_3_Dir" Attributes="0" KeyPath="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_winx64_native" ComponentId="{45E9D9B4-2B4E-4886-B990-D37D7A4BBC94}" Directory_="native_1_Dir" Attributes="256" KeyPath="sni.dll_1"/>
+    <ROW Component="MacroRecognotionWPF_PublishOutput_runtimes_winx86_native" ComponentId="{C084665A-F4BA-4996-9D5D-E7E1ED2F8685}" Directory_="native_2_Dir" Attributes="0" KeyPath="Microsoft.Data.SqlClient.SNI.dll_3"/>
+    <ROW Component="Microsoft.Data.SqlClient.SNI.dll" ComponentId="{54C84915-EC7E-4578-9E85-26D3A027C94F}" Directory_="native_1_Dir" Attributes="256" KeyPath="Microsoft.Data.SqlClient.SNI.dll_2"/>
+    <ROW Component="ProductInformation" ComponentId="{1A8BA287-5205-4014-BF3A-66E7A803276E}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="HandyControl.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="HANDYC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_HandyControl.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HandyControl.dll&gt;" SelfReg="false"/>
+    <ROW File="MacroRecognotionWPF.deps.json" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MACROR~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.deps.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MacroRecognotionWPF.deps.json&gt;" SelfReg="false"/>
+    <ROW File="MacroRecognotionWPF.dll_1" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MACROR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MacroRecognotionWPF.dll_1&gt;" SelfReg="false"/>
+    <ROW File="MacroRecognotionWPF.exe" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MACROR~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MacroRecognotionWPF.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="MacroRecognotionWPF.runtimeconfig.json" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MACROR~3.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.runtimeconfig.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MacroRecognotionWPF.runtimeconfig.json&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Compression.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Compression.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Compression.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Data.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Data.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Data.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Licensing.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Licensing.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Licensing.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Pdf.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Pdf.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Pdf.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfGrid.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGrid.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfGrid.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfGridConverter.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridConverter.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfGridConverter.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Shared.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Shared.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.XlsIO.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCFU~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.XlsIO.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.XlsIO.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Data.SqlClient.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SqlClient.dll&gt;" SelfReg="false"/>
+    <ROW File="sni.dll" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winarm64_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_sni.dll&gt;" SelfReg="false"/>
+    <ROW File="sni.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winx64_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_sni.dll_1&gt;" SelfReg="false"/>
+    <ROW File="sni.dll_2" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winx86_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_sni.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Data.SqlClient.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp2.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SqlClient.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Data.SqlClient.dll_2" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SqlClient.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Azure.Core.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="AZUREC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="Azure.Identity.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="AZUREI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Identity.dll&gt;" SelfReg="false"/>
+    <ROW File="MacroRecognotionWPF.dll.config" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MACROR~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MacroRecognotionWPF.dll.config&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.AsyncInterfaces.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.Tools.Sql.BatchParser.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.Extensions.Msal.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Abstractions.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.JsonWebTokens.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Logging.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Logging.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Protocols.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Tokens.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Tokens.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Assessment.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Assessment.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Assessment.Types.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfo.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.Common.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Dmf.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Assessment.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Collector.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Collector.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Collector.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.CollectorEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.HadrData.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.HadrModel.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.RegisteredServers.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Sdk.Sfc.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.SqlScriptPublish.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEvent.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScoped.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.XEventEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~29.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.PolicyEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~30.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Server.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~31.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Server.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Server.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ServiceBrokerEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~32.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Smo.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~33.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Smo.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Smo.Notebook.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~34.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SmoExtended.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~35.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SmoExtended.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.SmoExtended.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~36.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.SqlEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlWmiManagement.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~37.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.WmiEnum.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="MICRO~38.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.WmiEnum.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.WmiEnum.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Calculate.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Calculate.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Calculate.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.DocToPDFConverter.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Edit.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Edit.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Edit.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.ExcelChartToImageConverter.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.ExcelToPdfConverter.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Gantt.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Gantt.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Gantt.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Grid.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Grid.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Grid.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.GridCommon.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.GridCommon.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.GridCommon.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Linq.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Linq.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Linq.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.OfficeChart.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChart.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.OfficeChart.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.OfficeChartToImageConverter.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PdfViewer.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PdfViewer.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PdfViewer.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PivotAnalysis.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PivotAnalysis.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PivotAnalysis.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PMML.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PMML.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PMML.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Presentation.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Presentation.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Presentation.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PresentationToPdfConverter.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.ProjIO.Base.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ProjIO.Base.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.ProjIO.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.PropertyGrid.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PropertyGrid.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.PropertyGrid.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfAccordion.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~29.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfAccordion.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfAccordion.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfBarcode.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~30.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBarcode.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfBarcode.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfBulletGraph.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~31.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfBusyIndicator.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~32.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfCellGrid.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~33.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfCellGrid.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfCellGrid.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfChart.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~34.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfChart.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfChart.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfDiagram.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~35.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagram.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfDiagram.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfDiagramRibbon.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~36.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfGauge.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~37.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGauge.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfGauge.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfGridCommon.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~38.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridCommon.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfGridCommon.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfHeatMap.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~39.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHeatMap.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfHeatMap.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfHubTile.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~40.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHubTile.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfHubTile.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfImageEditor.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~41.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfImageEditor.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfImageEditor.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfInput.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~42.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfInput.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfInput.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfKanban.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~43.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfKanban.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfKanban.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfMaps.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~44.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfMaps.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfMaps.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfNavigationDrawer.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~45.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfProgressBar.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~46.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfProgressBar.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfProgressBar.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfRadialMenu.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~47.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfRichTextBoxAdv.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~48.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfRichTextRibbon.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~49.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSchedule.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~50.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSchedule.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSchedule.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfScheduler.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~51.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfScheduler.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfScheduler.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfShared.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~52.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfShared.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfShared.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSkinManager.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~53.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSkinManager.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSkinManager.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSmithChart.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~54.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSmithChart.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSmithChart.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSpellChecker.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~55.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSpreadsheet.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~56.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSpreadsheetHelper.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~57.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfSunburstChart.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~58.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfTextInputLayout.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~59.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfTreeMap.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~60.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeMap.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfTreeMap.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfTreeNavigator.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~61.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.SfTreeView.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~62.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeView.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.SfTreeView.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Shared.WPF.Classic.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~63.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.Classic.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Shared.WPF.Classic.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Blend.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~64.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Blend.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Blend.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.FluentDark.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~65.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.FluentLight.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~66.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Lime.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~67.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Lime.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Lime.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.MaterialDark.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~68.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.MaterialDarkBlue.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~69.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.MaterialLight.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~70.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.MaterialLightBlue.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~71.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Metro.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~72.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Metro.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Metro.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2010Black.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~73.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2010Blue.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~74.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2010Silver.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~75.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2013DarkGray.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~76.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2013LightGray.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~77.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2013White.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~78.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2016Colorful.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~79.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2016DarkGray.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~80.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2016White.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~81.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019Black.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~82.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019Colorful.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~83.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019DarkGray.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~84.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019HighContrast.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~85.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~86.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office2019White.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~87.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Office365.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~88.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office365.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Office365.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.Saffron.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~89.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.SystemTheme.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~90.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.VisualStudio2013.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~91.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Themes.VisualStudio2015.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~92.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Tools.WPF.Classic.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~93.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.Classic.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Tools.WPF.Classic.dll&gt;" SelfReg="false"/>
+    <ROW File="Syncfusion.Tools.WPF.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYNCF~94.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Syncfusion.Tools.WPF.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Data.OleDb.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.OleDb.dll&gt;" SelfReg="false"/>
+    <ROW File="System.IdentityModel.Tokens.Jwt.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IdentityModel.Tokens.Jwt.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Management.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Management.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Memory.Data.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Memory.Data.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Memory.Data.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Runtime.Caching.dll" Component_="MacroRecognotionWPF_PrimaryOutput" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Runtime.Caching.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.SNI.dll" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winarm_native" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.SNI.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winarm64_native" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.SNI.dll_2" Component_="Microsoft.Data.SqlClient.SNI.dll" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.SNI.dll_3" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winx86_native" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp3.1" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Management.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Management.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Data.SqlClient.dll_2" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Data.OleDb.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.OleDb.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Runtime.Caching.dll_1" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Runtime.Caching.dll_1&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Identity.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Identity.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HandyControl.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_HandyControl.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_HandyControl.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MacroRecognotionWPF.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.deps.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MacroRecognotionWPF.dll.config" Path="[|AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.dll.config]\[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MacroRecognotionWPF.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MacroRecognotionWPF.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MacroRecognotionWPF.runtimeconfig.json" Path="[|AI_PROPPATH_DIR_PERBUILD_MacroRecognotionWPF.runtimeconfig.json]\[|AI_PROPPATH_FILENAME_PERBUILD_MacroRecognotionWPF.runtimeconfig.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.SNI.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.SqlClient.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.SqlClient.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.SqlClient.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Data.Tools.Sql.BatchParser.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Logging.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Logging.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Tokens.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.Types.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Assessment.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Assessment.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Assessment.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ConnectionInfo.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.Common.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Dmf.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Dmf.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Dmf.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Assessment.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Collector.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Collector.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Collector.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.CollectorEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrData.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.HadrModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.RegisteredServers.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.Sdk.Sfc.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.SqlScriptPublish.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEvent.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScoped.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventDbScopedEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Management.XEventEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.PolicyEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Server.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Server.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Server.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.ServiceBrokerEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.Notebook.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Smo.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Smo.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Smo.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.SmoExtended.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SmoExtended.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SmoExtended.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.SqlEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SqlEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.SqlWmiManagement.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.WmiEnum.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.WmiEnum.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.WmiEnum.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Calculate.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Calculate.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Calculate.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Compression.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Compression.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Compression.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Data.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Data.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Data.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.DocToPDFConverter.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Edit.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Edit.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Edit.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelChartToImageConverter.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ExcelToPdfConverter.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Gantt.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Gantt.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Gantt.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Grid.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Grid.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Grid.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.GridCommon.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.GridCommon.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.GridCommon.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Licensing.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Licensing.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Licensing.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Linq.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Linq.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Linq.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.OfficeChart.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.OfficeChart.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChart.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.OfficeChartToImageConverter.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PMML.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PMML.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PMML.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Pdf.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Pdf.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Pdf.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PdfViewer.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PdfViewer.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PdfViewer.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PivotAnalysis.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PivotAnalysis.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PivotAnalysis.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Presentation.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Presentation.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Presentation.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PresentationToPdfConverter.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.ProjIO.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.ProjIO.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.ProjIO.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.PropertyGrid.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.PropertyGrid.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.PropertyGrid.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfAccordion.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfAccordion.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfAccordion.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfBarcode.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBarcode.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBarcode.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBulletGraph.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfBusyIndicator.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfCellGrid.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfCellGrid.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfCellGrid.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfChart.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfChart.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfChart.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfDiagram.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfDiagram.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagram.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfDiagramRibbon.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfGauge.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGauge.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGauge.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfGrid.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGrid.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGrid.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfGridCommon.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGridCommon.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridCommon.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfGridConverter.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfGridConverter.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfGridConverter.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfHeatMap.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfHeatMap.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHeatMap.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfHubTile.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfHubTile.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfHubTile.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfImageEditor.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfImageEditor.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfImageEditor.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfInput.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfInput.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfInput.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfKanban.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfKanban.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfKanban.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfMaps.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfMaps.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfMaps.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfNavigationDrawer.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfProgressBar.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfProgressBar.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfProgressBar.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRadialMenu.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextBoxAdv.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfRichTextRibbon.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSchedule.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSchedule.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSchedule.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfScheduler.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfScheduler.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfScheduler.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfShared.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfShared.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfShared.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSkinManager.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSkinManager.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSkinManager.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSmithChart.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSmithChart.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSmithChart.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpellChecker.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheet.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSpreadsheetHelper.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfSunburstChart.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTextInputLayout.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfTreeMap.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeMap.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeMap.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeNavigator.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.SfTreeView.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.SfTreeView.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.SfTreeView.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Shared.WPF.Classic.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Shared.WPF.Classic.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.Classic.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Shared.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Shared.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Shared.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Blend.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Blend.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Blend.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentDark.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.FluentLight.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Lime.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Lime.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Lime.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDark.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialDarkBlue.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLight.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.MaterialLightBlue.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Metro.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Metro.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Metro.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Black.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Blue.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2010Silver.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013DarkGray.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013LightGray.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2013White.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016Colorful.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016DarkGray.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2016White.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Black.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019Colorful.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019DarkGray.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrast.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office2019White.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Office365.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Office365.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Office365.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.Saffron.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.SystemTheme.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2013.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Themes.VisualStudio2015.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Tools.WPF.Classic.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Tools.WPF.Classic.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.Classic.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.Tools.WPF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.Tools.WPF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.Tools.WPF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Syncfusion.XlsIO.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Syncfusion.XlsIO.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Syncfusion.XlsIO.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.OleDb.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.OleDb.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.OleDb.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.OleDb.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.OleDb.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SqlClient.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SqlClient.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SqlClient.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SqlClient.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SqlClient.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Management.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Management.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Management.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Management.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Management.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Memory.Data.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Memory.Data.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Memory.Data.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Runtime.Caching.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Runtime.Caching.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Runtime.Caching.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Runtime.Caching.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.Caching.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_sni.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_sni.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_sni.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_sni.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_sni.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_sni.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_sni.dll_2]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winarm64_native"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winx64_native"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winx86_native"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp2.1"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.1"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_winarm_native"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_unix_lib_netcoreapp3.1"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp2.0"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netcoreapp3.1"/>
+    <ROW Feature_="MainFeature" Component_="MacroRecognotionWPF_PublishOutput_runtimes_win_lib_netstandard2.0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="HandyControl.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="MacroRecognotionWPF.deps.json"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="MacroRecognotionWPF.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="MacroRecognotionWPF.exe"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="MacroRecognotionWPF.runtimeconfig.json"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Compression.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Data.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Licensing.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Pdf.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfGrid.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfGridConverter.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Shared.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.XlsIO.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Data.SqlClient.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="sni.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="sni.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="sni.dll_2"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Data.SqlClient.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Data.SqlClient.dll_2"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Azure.Core.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Azure.Identity.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="MacroRecognotionWPF.dll.config"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.Tools.Sql.BatchParser.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.Extensions.Msal.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.JsonWebTokens.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Logging.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Protocols.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Tokens.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Assessment.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Assessment.Types.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.ConnectionInfo.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Dmf.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.Assessment.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.Collector.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.CollectorEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.HadrData.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.HadrModel.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.RegisteredServers.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.SqlScriptPublish.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.XEvent.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.XEventDbScoped.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.XEventDbScopedEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Management.XEventEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.PolicyEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Server.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Smo.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.Smo.Notebook.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.SmoExtended.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.SqlWmiManagement.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.SqlServer.WmiEnum.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Calculate.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.DocToPDFConverter.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Edit.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.ExcelChartToImageConverter.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.ExcelToPdfConverter.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Gantt.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Grid.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.GridCommon.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Linq.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.OfficeChart.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.OfficeChartToImageConverter.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PdfViewer.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PivotAnalysis.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PivotAnalysis.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PMML.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Presentation.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PresentationToPdfConverter.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.ProjIO.Base.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.PropertyGrid.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfAccordion.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfBarcode.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfBulletGraph.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfBusyIndicator.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfCellGrid.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfChart.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfDiagram.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfDiagramRibbon.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfGauge.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfGridCommon.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfHeatMap.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfHubTile.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfImageEditor.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfInput.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfKanban.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfMaps.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfNavigationDrawer.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfProgressBar.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfRadialMenu.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfRichTextBoxAdv.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfRichTextRibbon.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSchedule.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfScheduler.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfShared.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSkinManager.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSmithChart.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSpellChecker.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSpreadsheet.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSpreadsheetHelper.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfSunburstChart.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfTextInputLayout.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfTreeMap.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfTreeNavigator.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.SfTreeView.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Shared.WPF.Classic.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Blend.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.FluentDark.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.FluentLight.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Lime.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.MaterialDark.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.MaterialDarkBlue.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.MaterialLight.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.MaterialLightBlue.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Metro.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2010Black.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2010Blue.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2010Silver.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2013DarkGray.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2013LightGray.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2013White.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2016Colorful.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2016DarkGray.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2016White.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019Black.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019Colorful.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019DarkGray.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019HighContrast.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019HighContrastWhite.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office2019White.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Office365.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.Saffron.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.SystemTheme.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.VisualStudio2013.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Themes.VisualStudio2015.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Tools.WPF.Classic.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Syncfusion.Tools.WPF.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Data.OleDb.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.IdentityModel.Tokens.Jwt.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Management.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Memory.Data.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Runtime.Caching.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.SNI.dll"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.SNI.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.SNI.dll_2"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.SNI.dll_3"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Management.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="Microsoft.Data.SqlClient.dll_2"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Data.OleDb.dll_1"/>
+    <ROW ProjectId="{3ecc3827-1013-4329-b030-297caf763a16}" ProjectName="MacroRecognotionWPF" OutputGroup="PublishOutput" OutputFile="System.Runtime.Caching.dll_1"/>
+  </COMPONENT>
+</DOCUMENT>
